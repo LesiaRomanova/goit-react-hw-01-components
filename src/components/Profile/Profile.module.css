@@ -1,0 +1,82 @@
+.profile {
+  width: 400px;
+  align-items: center;
+  height: 500px;
+  padding: 75px;
+  background-color: rgb(205, 209, 208);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+}
+
+.description {
+  width: 250px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.avatar {
+  width: 80px;
+  border-radius: 50%;
+  padding-top: 30px;
+}
+.name,
+.tag,
+.location {
+  padding: 0;
+  margin: 0;
+}
+.name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.tag {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding-top: 5px;
+  font-weight: lighter;
+  color: rgb(180, 179, 177);
+}
+
+.location {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding-top: 5px;
+  font-weight: lighter;
+  color: rgb(180, 179, 177);
+  padding-bottom: 40px;
+}
+
+.stats {
+  margin: 0;
+  width: 250px;
+  background-color: azure;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  height: 75px;
+  padding-left: 0px;
+}
+
+.label {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding-top: 5px;
+  font-weight: lighter;
+  color: rgb(180, 179, 177);
+  margin-top: 15px;
+}
+
+.quantity {
+  display: flex;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 10px;
+  font-weight: bold;
+}
